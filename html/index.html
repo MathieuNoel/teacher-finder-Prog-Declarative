@@ -8,7 +8,26 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <div class="container" id="app"></div>
+  <div class="container" id="app">
+    <header class="select">
+      <label for="language-select"></label>
+
+      <select class="language select" name="language" id="language-select">
+        <option value="">--Please choose a language--</option>
+      </select>
+      <label for="speciality-select"></label>
+
+      <select class="speciality select" name="speciality" id="speciality-select">
+        <option value="">--Please choose a speciality--</option>
+      </select>
+    </header>
+    <div>
+      <h1 class="title"></h1>
+      <hr>
+    </div>
+    <div class="found-container">
+    </div>
+  </div>
   <script src="../js/script.js"></script>
 </body>
 </html>
