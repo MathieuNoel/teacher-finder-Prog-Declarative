@@ -1,0 +1,87 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+    background: #011020;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #fff;
+    height: 100vh;
+    width: 70vw;
+  
+  }
+  
+  .select {
+    display: flex;
+    width: 60vw;
+    height: 8vh;
+    margin-top: 0.5em;
+    background-color: #eee;
+  }
+  
+  
+  .title {
+    font-size: 3rem;
+    margin-right: 10em;
+    margin-top: 1em;
+  }
+  
+  .found-container {
+    padding-top: 2em;
+    display: inline;
+    width: 70vw;
+    height: 50vh;
+    position: center;
+    margin-left: 6em;
+  }
+  
+  .prof {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    background-color: #0052a9;
+    width: 60vw;
+    margin-top: 0.5em;
+    
+  }
+  
+  .profName {
+    padding-left: 1em;
+    margin-left: 1.5em;
+    padding: 1em 0 1em 0;
+    border-radius: 5px;
+  }
+  .profSpeciality {
+    font-size: 0.8em;
+    padding-left: 1em;
+    background-color: #1771da;
+    margin: 0.3em 0 0.3em 1em;
+    padding: 1em 0 1em 0;
+    border-radius: 5px;
+  }
+  .profLanguage {
+    font-size: 0.8em;
+    padding-left: 1em;
+    background-color: #1771da;
+    margin: 0.3em 0 0.3em 1em;
+    padding: 1em 0 1em 0;
+    border-radius: 5px;
+  }
+  /* Ajoute tous les styles dont tu as besoin ici */
+  /* 
+    codes couleurs :
+    - bleu des items de listes : #0052a9
+    - bleu des tags : #1771da
+    - gris des select: #eee
+    - gris des bordures: #bbb
+  */

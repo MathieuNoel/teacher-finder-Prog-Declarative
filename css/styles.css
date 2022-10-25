@@ -1,82 +1,12 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
   background: #011020;
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
 }
 
-#app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
-  background-color: #fff;
-  height: 100vh;
-  width: 70vw;
-
-}
-
-.select {
-  display: flex;
-  width: 60vw;
-  height: 8vh;
-  margin-top: 0.5em;
-  background-color: #eee;
-}
-
-
-.title {
-  font-size: 3rem;
-  margin-right: 10em;
-  margin-top: 1em;
-}
-
-.found-container {
-  padding-top: 2em;
-  display: inline;
-  width: 70vw;
-  height: 50vh;
-  position: center;
-  margin-left: 6em;
-}
-
-.prof {
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  background-color: #0052a9;
-  width: 60vw;
-  margin-top: 0.5em;
-  
-}
-
-.profName {
-  padding-left: 1em;
-  margin-left: 1.5em;
-  padding: 1em 0 1em 0;
-  border-radius: 5px;
-}
-.profSpeciality {
-  font-size: 0.8em;
-  padding-left: 1em;
-  background-color: #1771da;
-  margin: 0.3em 0 0.3em 1em;
-  padding: 1em 0 1em 0;
-  border-radius: 5px;
-}
-.profLanguage {
-  font-size: 0.8em;
-  padding-left: 1em;
-  background-color: #1771da;
-  margin: 0.3em 0 0.3em 1em;
-  padding: 1em 0 1em 0;
-  border-radius: 5px;
-}
 /* Ajoute tous les styles dont tu as besoin ici */
 /* 
   codes couleurs :
@@ -85,3 +15,52 @@ body {
   - gris des select: #eee
   - gris des bordures: #bbb
 */
+
+.container {
+  width: 90%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.search-choices {
+  padding: 1rem;
+  border: 1px solid #bbb;
+  background-color: #eee;
+  width: 50%;
+  font-size: 1.25em;
+}
+
+.counter {
+  font-size: 2.5em;
+  margin: 2rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #bbb;
+}
+
+.list-item {
+  margin: 0.25rem 0;
+  background-color: #0052a9;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.list-tag {
+  background-color: #1771da;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 0.75em;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-fof {
+  color: #F0F;
+}
+
